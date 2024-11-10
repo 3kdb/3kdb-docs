@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_3_kdb_docs=self.webpackChunk_3_kdb_docs||[]).push([[6119],{1405:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/3kdb-docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

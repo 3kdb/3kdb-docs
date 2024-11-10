@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_3_kdb_docs=self.webpackChunk_3_kdb_docs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/3kdb-docs/blog","blogTitle":"Blog","authorsListPath":"/3kdb-docs/blog/authors"}')}}]);
