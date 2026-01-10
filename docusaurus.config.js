@@ -18,13 +18,14 @@ const config = {
   url: 'https://3kdb.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/3kdb-docs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '3kdb', // Usually your GitHub org/user name.
-  projectName: '3kdb.github.io', // Usually your repo name.
+  projectName: '3kdb-docs', // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
