@@ -1,6 +1,8 @@
 # Dependencies
 /node_modules
 
+.claude
+
 # Production
 /build
 
