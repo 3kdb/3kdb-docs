@@ -1,47 +1,52 @@
 ---
+id: intro
+slug: /
+title: Welcome to 3kdb
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Welcome to 3kdb
 
-Let's discover **Docusaurus in less than 5 minutes**.
+**3kdb** is a modular [TinTin++](https://tintin.mudhalla.net/) scripting framework for the [3 Kingdoms MUD](https://3k.org). It gives you a plug-and-play system for managing multiple characters, guilds, automation bots, combat strategies, and quality-of-life features — all from a single, well-organized codebase.
 
-## Getting Started
+## What does it do?
 
-Get started by **creating a new site**.
+| Feature | Description |
+|---|---|
+| **Guild automation** | 22 fully scripted guilds with combat AI, skill usage, and healing |
+| **Leveling bots** | 151+ area-specific bots that grind mobs automatically |
+| **MIP UI** | A rich terminal UI showing HP bars, room info, chat logs, and stats |
+| **Strategy system** | Named combat strategies you can toggle on/off mid-session |
+| **Crafting** | Automation for blacksmithing, mining, farming, enchanting, and more |
+| **Discord integration** | Posts game events (kills, loot, deaths) to Discord webhooks |
+| **Character template** | A ready-to-use template for creating your own character configuration |
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Who is this for?
 
-### What you'll need
+- Players on **3 Kingdoms MUD** who want automation and quality-of-life scripting
+- People new to TinTin++ looking for a working reference implementation
+- Contributors who want to add guild scripts, area bots, or module features
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## How to navigate these docs
 
-## Generate a new site
+If you're brand new, start with **[Installation](getting-started/installation)** to get TinTin++ running, then **[Your First Character](getting-started/first-character)** to connect to the MUD.
 
-Generate a new Docusaurus site using the **classic template**.
+Once connected, explore:
 
-The classic template will automatically be added to your project after you run the command:
+- **[Common Systems](common/aliases)** — the aliases, actions, events, and toggles available to every character
+- **[Guilds](guilds/overview)** — how guild automation works and what each guild provides
+- **[Modules](modules/overview)** — optional features you can enable per character
+- **[Bots](bots/overview)** — automated leveling scripts for specific areas
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+## Characters
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+The `chars/` folder contains a **template** character (`chars/template/`) for creating your own character configuration. All other character folders in that directory are existing players' configs — refer only to the template when setting up your own character.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## Credits
 
-## Start your site
+The MIP UI foundation was built by **Balthus**, with contributions from **Inix** and **Krat**. Related repos:
 
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- [Balthus / Tim-Radcliffe](https://github.com/Tim-Radcliffe/Tintin-Setup)
+- [Inix](https://github.com/Inix3K/TinTin/)
+- [Krat](https://github.com/Krattimus/3k/)
+- [Flooby / 3scapes](https://github.com/daagar/3Steps)
