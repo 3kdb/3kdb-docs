@@ -10,29 +10,29 @@ Every character belongs to a guild. The guild determines which combat abilities,
 
 ## Supported guilds
 
-| Guild | Theme | Notable features |
-|---|---|---|
-| `adventurer` | Classic fighter | — |
-| `angel` | Divine | — |
-| `bard` | Music/magic | Rainbow of death, song buffs, reflex system |
-| `bladesinger` | Blade + magic | — |
-| `breed` | Hybrid | — |
-| `changeling` | Shapeshifting | — |
-| `cyborg` | Mechanical | Decompose corpses |
-| `elemental` | Elemental magic | Damage type selection, prismatic emission |
-| `eternal` | Transcendent | Cross-guild power set (separate from guild) |
-| `fremen` | Desert warrior | Water donation, reclaim corpses, skill training |
-| `gentech` | Sci-fi/tech | CPC management, shields, timeslide |
-| `jedi` | Force user | Weapon mastery, lightsaber modes |
-| `juggernaut` | Heavy mech | Nukes, mech management, mount damage tracking |
-| `knight` | Paladin | Shield bashing, bury corpses |
-| `knights-zorb` | Special variant | — |
-| `mage` | Arcane | Summon configs, contingencies, defense tracking |
-| `monk` | Martial arts | Study and eat corpses |
-| `necromancer` | Undead | Preserve/absorb corpses, qtrance, chest management |
-| `priest` | Divine healer | Party healing/radiance monitoring |
-| `psicorps` | Psychic | Power word tracking, astral pump |
-| `sii` | — | GXP tracking |
+| Guild | Theme | Script coverage | Details |
+|---|---|---|---|
+| `adventurer` | Classic fighter | Skeleton | [→](./adventurer.md) |
+| `angel` | Divine | Skeleton | [→](./angel.md) |
+| `bard` | Music/magic | Full — defense, bots, reflex, song buffs, mob eval | [→](./bard.md) |
+| `bladesinger` | Blade + magic | Skeleton | [→](./bladesinger.md) |
+| `breed` | Hybrid | Skeleton | [→](./breed.md) |
+| `changeling` | Shapeshifting | Skeleton | [→](./changeling.md) |
+| `cyborg` | Mechanical | Minimal | [→](./cyborg.md) |
+| `elemental` | Elemental magic | Full — damage type switching, blasts, waves, soul gems | [→](./elemental.md) |
+| `eternal` | Transcendent | Cross-guild (separate docs) | — |
+| `fremen` | Desert warrior | Full — corpse management, water donation, skill analysis | [→](./fremen.md) |
+| `gentech` | Sci-fi/tech | Full — shields, timescan, CPC, infirmary, repair | [→](./gentech.md) |
+| `jedi` | Force user | Skeleton | [→](./jedi.md) |
+| `juggernaut` | Heavy mech | Full — nukes, mech, stim healing, donations, GXP tracking | [→](./juggernaut.md) |
+| `knight` | Paladin | Skeleton | [→](./knight.md) |
+| `knights-zorb` | Special variant | — | — |
+| `mage` | Arcane | Full — defenses, summons, contingencies, MI, MC/SP management | [→](./mage.md) |
+| `monk` | Martial arts | Partial — palm and pressure strategies | [→](./monk.md) |
+| `necromancer` | Undead | Full — sub-forms, undead nuke, corpse runs, power study | [→](./necromancer.md) |
+| `priest` | Divine healer | Full — buff maintenance, bless party, feather touch | [→](./priest.md) |
+| `psicorps` | Psychic | Full — implant-driven power automation, AA, body adjustment | [→](./psicorps.md) |
+| `sii` | — | Minimal — GXP reset only | [→](./sii.md) |
 
 ## How guild loading works
 

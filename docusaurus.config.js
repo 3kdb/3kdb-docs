@@ -10,9 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: '3KDB Wiki',
+  tagline: 'Documentation for 3KDB',
+  favicon: 'img/3kdb-logo.jpg',
 
   // Set the production url of your site here
   url: 'https://3kdb.github.io',
@@ -69,10 +69,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '3KDB Wiki',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: '3KDB Logo',
+          src: 'img/3kdb-logo.jpg',
         },
         items: [
           {
